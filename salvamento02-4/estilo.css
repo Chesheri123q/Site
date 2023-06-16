@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --border-one: blue;
+  --border-two: rgb(159, 189, 243);
+}
+
+.OH{
+  background-color: white;
+  display: flex;
+  font-family: "Akaya Telivigala", cursive;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+.container {
+  align-items: center;
+}
+
+.progress-bar {
+  align-items: center;
+  color: var(--border-one);
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 30px 0px;
+  position: relative;
+  width: 400px;
+}
+
+.progress-bar::before {
+  content: "";
+  background-color: var(--border-two);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  transform: translateY(-50%);
+  transition: 0.4s ease;
+  z-index: 1;
+}
+
+.progress {
+  background-color: var(--border-one);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 5px;
+  transform: translateY(-50%);
+  transition: 0.4s ease;
+  width: 0%;
+  z-index: 2;
+}
+
+.circle {
+  align-items: center;
+  background-color: white;
+  border: 3px solid var(--border-two);
+  border-radius: 50px;
+  color: var(--border-one);
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  transition: 0.4s ease;
+  z-index: 3;
+}
+
+.circle.active {
+  border-color: var(--border-one);
+  z-index: 4;
+}
+
+.btn {
+  border-radius: 50px;
+  background-color: blue;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  padding: 10px 30px;
+  margin: 5px;
+  
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:disabled {
+  background-color: var(--border-two);
+  cursor: not-allowed;
+}

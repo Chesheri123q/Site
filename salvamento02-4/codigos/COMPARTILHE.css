@@ -1,0 +1,247 @@
+body{
+  background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 1340px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+#logo{
+  width: 20%;
+  float: left;
+  border : 10px solid rgba(3, 3, 146, 0.89);
+  border-right : 10px solid rgba(3, 3, 146, 0.89);
+  border-bottom : 20px solid white
+
+}
+
+#socorro{
+  position: fixed;
+  left: 2px;
+  top: 0px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  border-bottom: 0px solid white;
+  border-top: 10px solid white;
+  
+}
+
+/*titulo*/
+#Eu{
+   color :rgb(0, 104, 123);
+   font-size: 44px;
+   float: center;
+   border: 66px solid white;
+   border-bottom: 0px;
+   display: inline;
+   width: auto;
+   text-align: center;
+   margin-left: 11em;
+   margin-bottom: 7em;
+   text-align: end;
+   border-top: 0px;
+   
+
+}
+/*titulo*/
+
+
+
+#banner{ 
+  max-width:1350px;
+  width: auto;
+  border-left: 10px solid white;
+  border-bottom: 20px solid white;
+
+}
+#informaçoes{
+  background-color: blue;
+  border : 70px solid black;
+  
+}
+.detalhes{
+  border: 20px solid white;
+  background-color: white;
+
+}
+#tartaruga{
+  /*tamannho da segunda imagem */
+  height: 450px;
+  width: 500px;
+  /*tamannho da segunda imagem */
+
+  float: left;
+  margin-left:20px;
+  /*posição da segunda imagem(esquerda e direita) */ margin-left: 5%; /*posição da segunda imagem(esquerda e direita) */
+  
+  border: 50px solid black;
+
+  
+
+  border-radius:20px 0px 0px 0px;
+ 
+}
+#gato{
+  /*tamannho da primeira imagem */
+  height: 450px;
+  width: 500px;
+  /*tamannho da primeira imagem */
+
+  float: left;
+  margin-left:20px;
+  /*posição da primeira imagem(esquerda e direita) */ margin-left: 0%; /*posição da primeira imagem(esquerda e direita) */
+  
+  border: 50px solid black;
+  
+
+  border-radius:0px 20px 0px 0px;
+ 
+}
+#jacare{
+  /*tamannho da terceira imagem */
+  height: 1100px;
+  width: 1100px;
+  /*tamannho da terceira imagem */
+ 
+  float: left;
+  text-align: center;
+  font-size: 25px;
+  /*posição da terceira imagem(esquerda e direita) */ margin-left: 5%; /*posição da terceira imagem(esquerda e direita) */
+  
+  border: 50px solid black;
+  border-radius:0px 0px 0px 0px;
+ 
+ }
+.detalhes{
+  margin-left: 20px;
+  float: left;
+}
+p{
+  margin: 0;
+}
+.titulo{
+  font-weight: bold;
+}
+ul{
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+li{
+  display: inline;
+  text-align: center;
+  float: left;
+}
+
+/*faixa final*/
+footer{
+  color: white;
+  clear: both;
+  text-align: center;
+  background-color: rgb(21, 21, 21);
+  height: 50px;
+  width: 1200px;
+  margin-bottom: 1em;
+  margin-left: 4em;
+  border-radius:0px 0px 20px 20px;
+  margin-left: 5%;
+}
+/*faixa final*/
+
+/*palavras escondidas */
+a#d1{
+  text-align: center;
+  float: left;
+  width: 10em;
+  text-decoration: none;
+  color: rgb(73, 68, 68);
+  background-color: rgb(229, 229, 238);
+  padding: 0.5em;
+  margin-top:2em;
+
+}
+a:hover#d1{
+  background-color: rgb(4, 138, 71)
+} 
+
+/*palavras escondidas */
+
+
+
+
+/*pagina escondida */
+
+
+#divConteudo{
+  display: inline;
+  position: absolute;
+  float: left;  
+} 
+
+#btnMostrarEsconder{
+  display: flex;
+  position: absolute;
+  float: left;
+} 
+
+#lateral{
+  background-color: rgb(34, 34, 34);
+  color :rgb(0, 104, 123);
+  border: 70px solid rgb(34, 34, 34);  /*laterais da lateral */ /*100%  /*laterais da lateral */;
+  border-bottom: 400px solid rgb(34, 34, 34);
+  text-decoration: none;
+  float: left;
+  position: absolute;
+}
+
+#barra{
+max-width:32px;
+width: auto;
+float:right;
+}
+
+
+/*pagina escondida */
+
+
+/*linha*/
+#hr{
+  background-color: black;
+}
+/*linha*/
+
+
+/*caixa de pesquisa */
+input[type="submit"] {
+  float: right;
+  flex: 1;
+  margin-right: 5em;
+  height: 50px;
+  width: 70px;
+  background: #333;
+  border: 0;
+  color: white;
+}
+/*caixa de pesquisa */
+
+/*botão de pesquisa */
+input[type="search"] {
+  float: none;
+  flex: 3;
+  margin-left: 9em;
+  height: 50px;
+  width: 250px;
+}
+/*botão de pesquisa */
+
+.comments{
+height: 70%;
+width: 70%;
+border: 2px solid black;
+margin-left: 15%;
+padding-bottom: 200px;
+}
